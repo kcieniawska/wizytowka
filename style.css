@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  #witaj {
+    font-family: Staatliches;
+  }
+  
+  header {
+    background-color: #4c4a4a;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    text-align: center;
+    font-family: Calibri;
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+  hr {
+    border-bottom: dashed;
+    border-width: 5px;
+    border-color: rgba(255,255,255,0.5);
+    width: 50%;
+}
+img {
+    width: 250px;
+    height: 350px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #323131;
+  text-align: center;
+}
+  
+  nav.main-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav.main-menu li {
+    margin-right: 20px;
+  }
+  
+  nav.main-menu a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .sidebar {
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Staatliches;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  .sidebar a:hover {
+    color: #000;
+
+  }
+  
+  nav.sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav.sidebar li {
+    margin-right: 20px;
+  }
+  
+  nav.sidebar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+#profile
+{
+  width: 100%;
+  max-width: 1000px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left; 
+  margin: 0 auto; 
+  box-shadow: 0px 1px 10px  #d55e0e;
+}
+
+#profile h1 {
+    margin-bottom: 10px;
+}
+
+#profile p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+#contact div {
+    flex: 1;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#more {
+  
+  font-family: Staatliches;
+    padding: 10px 20px;
+    box-shadow: 0px 1px 10px  #fc8d0e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.custom-hr {
+  border: 2px dashed rgba(255,255,255,0.5);
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#phone-link:hover{
+  color: rgba(169, 169, 169, 0.5);
+}
+
+button {
+  width: 150px;
+  transition: 1s;
+  background-color:  #d55e0e;
+  font-family: Staatliches;
+  width: 30%;
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: 1px 1px 10px #fff;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+a button {
+  text-decoration: none;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+button:hover {
+  background-color:  #d55e0e;
+  box-shadow: 1px 1px 10px #fff;
+  border-radius: 50px;
+}
+p#email:hover{
+  color: rgb(132, 216, 255);
+
+}
+#arrow {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent; 
+  color: #ffffff;
+  padding: 15px; 
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(183, 83, 1); 
+  font-weight: bold; 
+  width: 50px; 
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  font-size: 50px; 
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+}
+
+#arrow.show {
+  display: flex;
+}

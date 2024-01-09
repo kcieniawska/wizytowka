@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+  <link rel="Stylesheet" type="text/css" href="style.css"/>
+    <title>Wizytówka</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Staatliches:wght@400;700&display=swap">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal img {
+      width: 80%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .close {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      font-size: 20px;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<script src="script.js"></script>
+<body>
+
+
+<body>
+    <div class="container" id="cont">
+        <header>
+            <h1>Karolina Cieniawska</h1>
+            <h3 style="margin-top: 0px;">Studentka Informatyki Ekonomicznej w Akademii Nauk Stosowanych w Nowym Targu</h3>
+        </header>
+    
+        <nav class="sidebar">
+          <ul>
+            <li><a href="./index.html">Strona główna</a></li>
+            <li><a href="./o-mnie.html">O mnie</a></li>
+            <li><a href="./hobby.html">Zainteresowania</a></li>
+            <li><a href="./doswiadczenie.html">Doświadczenie</a></li>
+          </ul>
+        </nav>
+    
+        <main>
+         
+        </script>
+  </section>
+    <div id="profile" style="width: 100%!important;max-width: 1000px;">
+      <img style="  border-radius: 50%; width: 200px; height: 200px; display: block; margin: 0 auto; box-shadow: 0px 1px 10px  #d55e0e;" id="profile" src="kotek-bing.jpg" alt="Moje zdjęcie">
+      <h1 style="text-align: center; font-family: Staatliches; font-size: 40px;" id="kc">Galeria zdjęć</h1>
+      <p style="text-align: center; margin-top: 50px;">Zdjęcia, które wybrałam ze swojego telefonu są losowe. 
+        Przedstawiają moje pasje, lub zwierzątka które widziałam, znam, bądź posiadam (albo posiadałam).
+      Miłego oglądania.</p>
+      <div class="gallery">
+        <img src="./gallery/kotek.jpg" alt="Image 1" onclick="openModal('./gallery/kotek.jpg')">
+        <img src="./gallery/rys2.jpg" alt="Image 2" onclick="openModal('./gallery/rys2.jpg')">
+        <img src="./gallery/oreo.jpg" alt="Image 3" onclick="openModal('./gallery/oreo.jpg')">
+        <img src="./gallery/bolo.jpg" alt="Image 4" onclick="openModal('./gallery/bolo.jpg')">
+        <img src="./gallery/franek.jpg" alt="Image 5" onclick="openModal('./gallery/franek.jpg')">
+        <img src="./gallery/franek2.jpg" alt="Image 6" onclick="openModal('./gallery/franek2.jpg')">
+        <img src="./gallery/bolo2.jpg" alt="Image 7" onclick="openModal('./gallery/bolo2.jpg')">
+        <img src="./gallery/rys.jpg" alt="Image 8" onclick="openModal('./gallery/rys.jpg')">
+        <img src="./gallery/komputry.jpg" alt="Image 9" onclick="openModal('./gallery/komputry.jpg')">
+        <img src="./gallery/drd.jpg" alt="Image 10" onclick="openModal('./gallery/drd.jpg')">
+        <img src="./gallery/kinder.jpg" alt="Image 11" onclick="openModal('./gallery/kinder.jpg')">
+        <img src="./gallery/cookies.jpg" alt="Image 12" onclick="openModal('./gallery/cookies.jpg')">
+        <img src="./gallery/moo.jpg" alt="Image 13" onclick="openModal('./gallery/moo.jpg')">
+        <img src="./gallery/code.png" alt="Image 14" onclick="openModal('./gallery/code.png')">
+        <img src="./gallery/bee.jpg" alt="Image 15" onclick="openModal('./gallery/bee.jpg')">
+        <img src="./gallery/cat.png" alt="Image 16" onclick="openModal('./gallery/cat.png')">
+        <img src="./gallery/bociek.jpg" alt="Image 17" onclick="openModal('./gallery/bociek.jpg')">
+        <img src="./gallery/win.jpg" alt="Image 18" onclick="openModal('./gallery/win.jpg')">
+        <img src="./gallery/plc.jpg" alt="Image 19" onclick="openModal('./gallery/plc.jpg')">
+        <img src="./gallery/laki.jpg" alt="Image 20" onclick="openModal('./gallery/laki.jpg')">
+        <img src="./gallery/mclaren.jpg" alt="Image 21" onclick="openModal('./gallery/mclaren.jpg')">
+
+        <div id="arrow" class="arrow" onclick="scrollToTop()">
+          🡅
+        </div>
+
+
+
+    
+
+
+        
+       
+      </div>
+      
+      <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" src="" alt="Modal Image">
+      </div>
+      <a href="index.html"><button>Powrót do strony głównej</button></a>
+</div>
+        </main>
+    
+        <footer>
+          <p>&copy; 2023 Karolina Cieniawska</p>
+        </footer>
+      </div>
+</body>
+</html>
+</body>
+</html>
